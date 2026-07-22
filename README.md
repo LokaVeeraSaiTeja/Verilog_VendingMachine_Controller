@@ -222,7 +222,7 @@ This project demonstrates:
 
 **Loka Veera Sai Teja**
 
-B.Tech Computer Science & Engineering
+B.Tech Electronic Communication & Engineering
 
 IIIT Sri City
 
