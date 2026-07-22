@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_Vending_Machine_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_Vending_Machine" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="215.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="596.001 ns"></ZoomEndTime>
+      <Cursor1Time time="820.500 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="294"></NameColumnWidth>
+      <ValueColumnWidth column_width="94"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="23" />
+   <wvobject fp_name="/tb_Vending_Machine/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Vending_Machine/RESET" type="logic">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Vending_Machine/START" type="logic">
+      <obj_property name="ElementShortName">START</obj_property>
+      <obj_property name="ObjectShortName">START</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Vending_Machine/CANCEL" type="logic">
+      <obj_property name="ElementShortName">CANCEL</obj_property>
+      <obj_property name="ObjectShortName">CANCEL</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider202">
+      <obj_property name="label">INPUTS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Vending_Machine/PRODUCT_CODE" type="array">
+      <obj_property name="ElementShortName">PRODUCT_CODE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">PRODUCT_CODE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Vending_Machine/ONLINE_PAYMENT" type="logic">
+      <obj_property name="ElementShortName">ONLINE_PAYMENT</obj_property>
+      <obj_property name="ObjectShortName">ONLINE_PAYMENT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Vending_Machine/COIN_5" type="logic">
+      <obj_property name="ElementShortName">COIN_5</obj_property>
+      <obj_property name="ObjectShortName">COIN_5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Vending_Machine/COIN_10" type="logic">
+      <obj_property name="ElementShortName">COIN_10</obj_property>
+      <obj_property name="ObjectShortName">COIN_10</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider203">
+      <obj_property name="label">OUTPUTS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Vending_Machine/OUT_STATE" type="array">
+      <obj_property name="ElementShortName">OUT_STATE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT_STATE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Vending_Machine/DISPENSE_PRODUCT" type="logic">
+      <obj_property name="ElementShortName">DISPENSE_PRODUCT</obj_property>
+      <obj_property name="ObjectShortName">DISPENSE_PRODUCT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Vending_Machine/RETURN_CHANGE" type="array">
+      <obj_property name="ElementShortName">RETURN_CHANGE[6:0]</obj_property>
+      <obj_property name="ObjectShortName">RETURN_CHANGE[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Vending_Machine/PRODUCT_PRICE" type="array">
+      <obj_property name="ElementShortName">PRODUCT_PRICE[6:0]</obj_property>
+      <obj_property name="ObjectShortName">PRODUCT_PRICE[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider204">
+      <obj_property name="label">STATES</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Vending_Machine/VM/present_state" type="array">
+      <obj_property name="ElementShortName">present_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">present_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Vending_Machine/VM/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Vending_Machine/VM/total_coin_value" type="array">
+      <obj_property name="ElementShortName">total_coin_value[6:0]</obj_property>
+      <obj_property name="ObjectShortName">total_coin_value[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Vending_Machine/VM/next_total_coin_value" type="array">
+      <obj_property name="ElementShortName">next_total_coin_value[6:0]</obj_property>
+      <obj_property name="ObjectShortName">next_total_coin_value[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Vending_Machine/VM/r_product_price" type="array">
+      <obj_property name="ElementShortName">r_product_price[6:0]</obj_property>
+      <obj_property name="ObjectShortName">r_product_price[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Vending_Machine/VM/r_next_product_price" type="array">
+      <obj_property name="ElementShortName">r_next_product_price[6:0]</obj_property>
+      <obj_property name="ObjectShortName">r_next_product_price[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Vending_Machine/VM/r_return_change" type="array">
+      <obj_property name="ElementShortName">r_return_change[6:0]</obj_property>
+      <obj_property name="ObjectShortName">r_return_change[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Vending_Machine/VM/r_next_return_change" type="array">
+      <obj_property name="ElementShortName">r_next_return_change[6:0]</obj_property>
+      <obj_property name="ObjectShortName">r_next_return_change[6:0]</obj_property>
+   </wvobject>
+</wave_config>
