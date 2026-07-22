@@ -1,0 +1,78 @@
+# ================================
+# Vivado Generated Files
+# ================================
+
+.cache/
+.hw/
+.ip_user_files/
+.runs/
+.sim/
+.srcs/
+.Xil/
+.gen/
+
+# Vivado Log Files
+*.jou
+*.log
+*.str
+
+# Simulation Files
+xsim.dir/
+webtalk/
+usage_statistics_webtalk.html
+usage_statistics_webtalk.xml
+
+# Temporary Files
+*.tmp
+*.bak
+*.pb
+*.wdb
+
+# Auto-generated Project Files
+*.cache
+*.lpr
+*.lrn
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor Files
+.vscode/
+.idea/
+*.swp
+
+# Python Cache (if any)
+__pycache__/
+*.pyc
+
+# ================================
+# Keep Important Project Files
+# ================================
+
+!README.md
+!LICENSE
+!.gitignore
+
+# Source Code
+!src/**
+!test_bench/**
+
+# Documentation
+!docs/**
+
+# Waveforms
+!waveforms/*.png
+!waveforms/*.jpg
+!waveforms/*.jpeg
+!waveforms/*.wcfg
+
+# Constraint Files (if added later)
+!constraints/**
+
+# Verilog Files
+!*.v
+!*.vh
+!*.sv
+!*.xdc
