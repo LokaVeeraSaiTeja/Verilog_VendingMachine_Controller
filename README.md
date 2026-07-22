@@ -1,5 +1,8 @@
 #  Vending Machine Controller using Verilog HDL
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Language](https://img.shields.io/badge/Language-Verilog-blue.svg)
+![Tool](https://img.shields.io/badge/Tool-Xilinx%20Vivado-orange.svg)
+![Simulation](https://img.shields.io/badge/Simulation-XSim-success.svg)
 # Project Preview
 
 <p align="center">
