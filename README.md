@@ -3,6 +3,12 @@
 ![Language](https://img.shields.io/badge/Language-Verilog-blue.svg)
 ![Tool](https://img.shields.io/badge/Tool-Xilinx%20Vivado-orange.svg)
 ![Simulation](https://img.shields.io/badge/Simulation-XSim-success.svg)
+# Project Demonstration
+<p align="center">
+  <a href="https://youtu.be/de7Z4eadeas" target="_blank">
+    <img src="https://img.shields.io/badge/▶️%20Watch%20Demo%20on-YouTube-red?style=for-the-badge&logo=youtube" alt="Watch Demo">
+  </a>
+</p> 
 # Project Preview
 
 <p align="center">
