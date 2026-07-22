@@ -24,18 +24,18 @@ A Finite State Machine (FSM) based **Vending Machine Controller** implemented in
 
 ## 📌 Project Features
 
-- ✅ Moore FSM-based controller
-- ✅ Four selectable products
+-  Moore FSM-based controller
+-  Four selectable products
   - 🥤 Coke (₹20)
   - 🥤 Pepsi (₹15)
   - 💧 Water Bottle (₹10)
   - ☕ Coffee (₹25)
-- ✅ Coin Payment (₹5 & ₹10)
-- ✅ Online Payment
-- ✅ Cancel Transaction
-- ✅ Automatic Change Return
-- ✅ Behavioral Simulation using Xilinx Vivado
-- ✅ Comprehensive Verilog Testbench
+-  Coin Payment (₹5 & ₹10)
+-  Online Payment
+-  Cancel Transaction
+-  Automatic Change Return
+-  Behavioral Simulation using Xilinx Vivado
+-  Comprehensive Verilog Testbench
 
 ---
 
@@ -156,12 +156,12 @@ The design has been verified using a dedicated Verilog testbench.
 
 ### Test Cases Performed
 
-- ✅ Reset Operation
-- ✅ Coke Purchase (Online Payment)
-- ✅ Pepsi Cancel Transaction
-- ✅ Water Bottle Return Change
-- ✅ Coffee Coin Payment
-- ✅ Coffee Insufficient Funds
+-  Reset Operation
+-  Coke Purchase (Online Payment)
+-  Pepsi Cancel Transaction
+-  Water Bottle Return Change
+-  Coffee Coin Payment
+-  Coffee Insufficient Funds
 
 ---
 
