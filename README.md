@@ -3,7 +3,7 @@
 # Project Preview
 
 <p align="center">
-<img src="docs/VM_StateDiagram.png" width="700">
+<img src="docs/State_Diagrams/VM_StateDiagram.png" width="700">
 </p>
 
 
@@ -74,7 +74,7 @@ Vending_Machine_Verilog/
 # 🏗️ FSM State Diagram
 
 <p align="center">
-<img src="docs/VM_StateDiagram.png" width="900">
+<img src="docs/State_Diagrams/VM_StateDiagram.png" width="900">
 </p>
 
 ---
@@ -82,7 +82,7 @@ Vending_Machine_Verilog/
 # 📋 FSM State Table
 
 <p align="center">
-<img src="docs/VM_StateTable.png" width="1000">
+<img src="docs/State_Tables/VM_StateTable.png" width="1000">
 </p>
 
 ---
